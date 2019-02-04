@@ -1,0 +1,22 @@
+{
+  "name": "front-lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/losev-al/Front-Lessons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/losev-al/Front-Lessons/issues"
+  },
+  "homepage": "https://github.com/losev-al/Front-Lessons#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.11.0"
+  }
+}
