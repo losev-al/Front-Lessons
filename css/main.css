@@ -3,23 +3,65 @@ body{
     display: grid;
     margin: 0px;
     padding: 0px;    
+    justify-content: center;
+}
+header {
+    width: 1150px;
+}
+main {
+    width: 1150px;
+}
+footer {
+    width: 1150px;
 }
 .mainMenu{
-    height: 90;
-    background: tomato;
-    align-self: center;
+    height: 80;
+    align-self: center;    
+    font-size: 20px;
+    font-weight: bold;
+}
+.sunMenuPlace {
+    background-color: rgb(241, 241, 241);
+    height: 270px;
+    background-image: url(/image/back/wave.png); 
+    background-position: left bottom; 
+    background-repeat: repeat-x;
+    display: -webkit-flex; 
+    display: grid; /*отображает контейнер как блочный элемент*/
+    font-size: 18px;
+    font-weight: bold;
 }
 ul{
     list-style: none; /*убираем маркеры списка*/    
     display: -webkit-flex; 
     display: flex; /*отображает контейнер как блочный элемент*/
     justify-content: space-between; /*Flex-элементы выравниваются по главной оси, свободное место между ними распределяется следующим образом: первый блок располагается в начале flex-контейнера, последний блок – в конце, все остальные блоки равномерно распределены в оставшемся пространстве, а свободное пространство равномерно распределяется между элементами.*/
+    align-items: center;
+    padding: 0px 50px;
 }
 a{
     text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color: black;
 }
 .goods{    
     display: -webkit-flex; 
     display: flex; /*отображает контейнер как блочный элемент*/
     justify-content: space-between; /*Flex-элементы выравниваются по главной оси, свободное место между ними распределяется следующим образом: первый блок располагается в начале flex-контейнера, последний блок – в конце, все остальные блоки равномерно распределены в оставшемся пространстве, а свободное пространство равномерно распределяется между элементами.*/
+}
+a.iconWithText {
+    display: -webkit-flex; 
+    display: flex; /*отображает контейнер как блочный элемент*/
+    align-items: center;    
+}
+.promo {
+    align-self: flex-start;
+    justify-self: flex-end;
+    background: tomato;
+    margin: 25px 50px;
+}
+h1 {
+    align-self: center;
+    justify-self: center;
+    background: tomato;
+    margin: 25px 50px;
 }
